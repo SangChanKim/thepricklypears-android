@@ -20,4 +20,18 @@
         completions."
     </string>
     <string name="title_activity_maps">Map</string>
+
+    <string-array name="userTypeArray">
+        <item>User</item>
+        <item>Admin</item>
+        <item>Worker</item>
+        <item>Manager</item>
+    </string-array>
+
+    <string-array name="userTitleArray">
+        <item>Mr.</item>
+        <item>Ms.</item>
+        <item>Mrs.</item>
+        <item>Dr.</item>
+    </string-array>
 </resources>

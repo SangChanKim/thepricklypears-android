@@ -13,8 +13,40 @@
     tools:context="com.example.sang.waterreportingapp.MainScreenActivity"
     tools:showIn="@layout/app_bar_main_screen">
 
-    <TextView
+    <Button
+        android:text="Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="57dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginBottom="179dp"
+        android:id="@+id/loginButton" />
+
+    <TextView
+        android:text="welcome!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView3"
+        tools:text="welcome"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="36sp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerButton"
+        android:layout_alignBaseline="@+id/loginButton"
+        android:layout_alignBottom="@+id/loginButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="49dp"
+        android:layout_marginEnd="49dp"
+        tools:text="Register" />
 </RelativeLayout>
