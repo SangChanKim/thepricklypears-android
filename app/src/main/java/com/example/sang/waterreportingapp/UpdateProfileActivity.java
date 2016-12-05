@@ -30,6 +30,7 @@ public class UpdateProfileActivity extends AppCompatActivity {
         setContentView(R.layout.activity_update_profile);
 
         String currentUser = getIntent().getExtras().getString("username");
+        String currentPass = getIntent().getExtras().getString("password");
 
         final TextView usernameTextView = (TextView) findViewById(R.id.usernameTextView);
         usernameTextView.setText(currentUser);
@@ -129,6 +130,8 @@ public class UpdateProfileActivity extends AppCompatActivity {
                 this.editAuthUser(newUser);
 
                 Intent updateIntent = new Intent(UpdateProfileActivity.this, HomeScreenActivity.class);
+                updateIntent.putExtra("username", getIntent().getExtras().getString("username"));
+                updateIntent.putExtra("password", getIntent().getExtras().getString("password"));
                 UpdateProfileActivity.this.startActivity(updateIntent);
             }
 

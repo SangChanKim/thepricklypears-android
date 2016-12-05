@@ -75,7 +75,7 @@ public class LoginActivity extends AppCompatActivity {
                         System.out.println("User is authenticated");
                         Intent loginIntent = new Intent(LoginActivity.this, HomeScreenActivity.class);
                         loginIntent.putExtra("username", username);
-                        loginIntent.putExtra("username", password);
+                        loginIntent.putExtra("password", password);
                         LoginActivity.this.startActivity(loginIntent);
                     } else {
                         System.out.println("Incorrect password");
