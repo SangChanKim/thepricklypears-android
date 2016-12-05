@@ -51,6 +51,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void authenticate(String user, String pass){
+        final String username = user;
         final String password = pass;
         passwordIsValid = false;
         if (db.child("users").child(user) == null) {
@@ -73,6 +74,8 @@ public class LoginActivity extends AppCompatActivity {
                         passwordIsValid = true;
                         System.out.println("User is authenticated");
                         Intent loginIntent = new Intent(LoginActivity.this, HomeScreenActivity.class);
+                        loginIntent.putExtra("username", username);
+                        loginIntent.putExtra("username", password);
                         LoginActivity.this.startActivity(loginIntent);
                     } else {
                         System.out.println("Incorrect password");
