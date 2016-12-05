@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "684340247616",
+    "firebase_url": "https://thepricklypears-9a5e4.firebaseio.com",
+    "project_id": "thepricklypears-9a5e4",
+    "storage_bucket": "thepricklypears-9a5e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684340247616:android:c108b2d12c7b22fe",
+        "android_client_info": {
+          "package_name": "com.example.sang.waterreportingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684340247616-qhoi0eiol1ttqdtb58fmfb7nbicg7ukm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb0sbks43u1Pe6qbyREt0NzY2HmwiDpc0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
