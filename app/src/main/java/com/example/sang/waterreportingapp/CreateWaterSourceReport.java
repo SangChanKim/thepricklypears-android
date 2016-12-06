@@ -22,16 +22,6 @@ public class CreateWaterSourceReport extends AppCompatActivity {
     private EditText etLocationName;
     private EditText etLat;
     private EditText etLng;
-    private EditText etType;
-    private EditText etCondition;
-
-    public EditText getEtType() {
-        return etType;
-    }
-
-    public EditText getEtCondition() {
-        return etCondition;
-    }
 
     private Spinner typeSpinner;
     private Spinner condSpinner;
@@ -99,7 +89,7 @@ public class CreateWaterSourceReport extends AppCompatActivity {
 
 
 
-        typeSpinner = (Spinner) findViewById(R.id.typeSpinner);
+        typeSpinner = (Spinner) findViewById(R.id.qualitySpinner);
 
         ArrayList<CharSequence> types = new ArrayList<CharSequence>();
         WaterType[] typesRaw = WaterType.values();

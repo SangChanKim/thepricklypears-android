@@ -11,6 +11,8 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.example.sang.waterreportingapp.model.QualityCondition;
+
 import java.util.ArrayList;
 
 public class CreateWaterQualityReport extends AppCompatActivity {
@@ -22,25 +24,28 @@ public class CreateWaterQualityReport extends AppCompatActivity {
     private EditText etLocationName;
     private EditText etLat;
     private EditText etLng;
-    private EditText etType;
-    private EditText etCondition;
 
-    public EditText getEtType() {
-        return etType;
+    private EditText etVirus;
+    private EditText etContaminant;
+
+    private Spinner qualitySpinner;
+
+    public EditText getEtVirus() {
+        return etVirus;
     }
 
-    public EditText getEtCondition() {
-        return etCondition;
+    public EditText getEtContaminant() {
+        return etContaminant;
     }
 
-    private Spinner typeSpinner;
-    private Spinner condSpinner;
-
+    public Spinner getQualitySpinner() {
+        return qualitySpinner;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_create_water_source_report);
+        setContentView(R.layout.activity_create_water_quality_report);
 
 
 
@@ -48,8 +53,7 @@ public class CreateWaterQualityReport extends AppCompatActivity {
         createButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Create water source report object
-
+                // Create water quality report object
                 System.out.println("Creating resulting intent");
                 Intent resultIntent = new Intent();
                 resultIntent.putExtra("username", getUsername());
@@ -57,8 +61,9 @@ public class CreateWaterQualityReport extends AppCompatActivity {
                 resultIntent.putExtra("lat", Double.parseDouble(getEtLat().getText().toString()));
                 resultIntent.putExtra("long", Double.parseDouble(getEtLng().getText().toString()));
                 resultIntent.putExtra("locName", getEtLocationName().getText().toString());
-                resultIntent.putExtra("type", getTypeSpinner().getSelectedItem().toString() /*getEtType().getText().toString()*/);
-                resultIntent.putExtra("cond", getCondSpinner().getSelectedItem().toString() /*getEtCondition().getText().toString()*/);
+                resultIntent.putExtra("qcond", getQualitySpinner().getSelectedItem().toString() /*getEtType().getText().toString()*/);
+                resultIntent.putExtra("virusPPM", Integer.parseInt(getEtVirus().getText().toString()));
+                resultIntent.putExtra("contaminantPPM", Integer.parseInt(getEtContaminant().getText().toString()));
                 setResult(Activity.RESULT_OK, resultIntent);
                 finish();
             }
@@ -97,16 +102,17 @@ public class CreateWaterQualityReport extends AppCompatActivity {
 
         etLocationName = (EditText) findViewById(R.id.locationEditText);
 
+        etVirus = (EditText) findViewById(R.id.virusPPMEditText);
+        etContaminant = (EditText) findViewById(R.id.contaminantPPMEditText);
 
-
-        typeSpinner = (Spinner) findViewById(R.id.typeSpinner);
+        qualitySpinner = (Spinner) findViewById(R.id.qualitySpinner);
 
         ArrayList<CharSequence> types = new ArrayList<CharSequence>();
-        WaterType[] typesRaw = WaterType.values();
+        QualityCondition[] raw = QualityCondition.values();
         System.out.println("ffff");
-        for (int i = 0; i < typesRaw.length; i++) {
-            System.out.println(typesRaw[i].toString());
-            types.add(typesRaw[i].toString());
+        for (int i = 0; i < raw.length; i++) {
+            System.out.println(raw[i].toString());
+            types.add(raw[i].toString());
         }
 
         ArrayAdapter<CharSequence> a1 = new ArrayAdapter<CharSequence>(this, android.R.layout.simple_spinner_item, types);
@@ -115,40 +121,11 @@ public class CreateWaterQualityReport extends AppCompatActivity {
         a1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
         // Apply the adapter to the spinner
-        typeSpinner.setAdapter(a1);
-
-
-        //etType = (EditText) findViewById(R.id.typeEditText);
-        //etCondition = (EditText) findViewById(R.id.condEditText);
-
-
-
-
-
-        condSpinner = (Spinner) findViewById(R.id.condSpinner);
-
-        ArrayList<CharSequence> conditions = new ArrayList<CharSequence>();
-        WaterCondition[] conditionsRaw = WaterCondition.values();
-        for (int i = 0; i < conditionsRaw.length; i++) {
-            System.out.println(conditionsRaw[i].toString());
-            conditions.add(conditionsRaw[i].toString());
-        }
-
-        ArrayAdapter<CharSequence> a2 = new ArrayAdapter<CharSequence>(this, android.R.layout.simple_spinner_item, conditions);
-
-        // Specify the layout to use when the list of choices appears
-        a2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
-        // Apply the adapter to the spinner
-        condSpinner.setAdapter(a2);
-
+        qualitySpinner.setAdapter(a1);
 
 
     }
 
-    public Spinner getCondSpinner() {
-        return condSpinner;
-    }
 
     public String getUsername() {
         return username;
@@ -174,7 +151,4 @@ public class CreateWaterQualityReport extends AppCompatActivity {
         return etLng;
     }
 
-    public Spinner getTypeSpinner() {
-        return typeSpinner;
-    }
 }

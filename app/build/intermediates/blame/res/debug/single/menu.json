@@ -1,15 +1,7 @@
 [
     {
-        "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_screen.xml",
-        "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\src\\main\\res\\menu\\main_screen.xml"
-    },
-    {
         "merged": "/Users/sang/thepricklypears-android/app/build/intermediates/res/merged/debug/menu/activity_main_screen_drawer.xml",
         "source": "/Users/sang/thepricklypears-android/app/src/main/res/menu/activity_main_screen_drawer.xml"
-    },
-    {
-        "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_screen_drawer.xml",
-        "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\src\\main\\res\\menu\\activity_main_screen_drawer.xml"
     },
     {
         "merged": "/Users/sang/thepricklypears-android/app/build/intermediates/res/merged/debug/menu/main_screen.xml",

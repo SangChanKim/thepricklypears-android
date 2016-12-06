@@ -134,7 +134,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/typeLabel"
+        android:id="@+id/qualityLabel"
         android:text="Type:"
         android:layout_marginTop="30dp"
         android:layout_below="@+id/longLatLabel"
@@ -166,8 +166,8 @@
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/typeLabel"
-        android:id="@+id/typeSpinner"
+        android:layout_alignTop="@+id/qualityLabel"
+        android:id="@+id/qualitySpinner"
         android:layout_alignLeft="@+id/latEditText"
         android:layout_alignStart="@+id/latEditText"
         android:layout_alignRight="@+id/longEditText"
@@ -177,10 +177,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/condSpinner"
-        android:layout_alignLeft="@+id/typeSpinner"
-        android:layout_alignStart="@+id/typeSpinner"
-        android:layout_alignRight="@+id/typeSpinner"
-        android:layout_alignEnd="@+id/typeSpinner"
+        android:layout_alignLeft="@+id/qualitySpinner"
+        android:layout_alignStart="@+id/qualitySpinner"
+        android:layout_alignRight="@+id/qualitySpinner"
+        android:layout_alignEnd="@+id/qualitySpinner"
         android:layout_above="@+id/createButton" />
 
     <TextView
@@ -189,9 +189,9 @@
         android:id="@+id/conditionLabel"
         android:text="Condition:"
         android:layout_marginTop="26dp"
-        android:layout_below="@+id/typeSpinner"
-        android:layout_alignLeft="@+id/typeLabel"
-        android:layout_alignStart="@+id/typeLabel" />
+        android:layout_below="@+id/qualitySpinner"
+        android:layout_alignLeft="@+id/qualityLabel"
+        android:layout_alignStart="@+id/qualityLabel" />
 
 
 </RelativeLayout>

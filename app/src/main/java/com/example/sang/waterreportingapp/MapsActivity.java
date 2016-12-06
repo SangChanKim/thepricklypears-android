@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.sang.waterreportingapp.model.Location;
+import com.example.sang.waterreportingapp.model.QualityCondition;
+import com.example.sang.waterreportingapp.model.WaterQualityReport;
 import com.example.sang.waterreportingapp.model.WaterSourceReport;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -38,8 +40,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private Marker mCurrMarker;
 
     private ArrayList<WaterSourceReport> waterSourceReports;
+    private ArrayList<WaterQualityReport> waterQualityReports;
 
     private ArrayList<WaterSourceReport> newlyCreatedSrcReports;
+    private ArrayList<WaterQualityReport> newlyCreatedQualityReports;
 
     private int currWaterSourceReportNum;
     private int currWaterQualityReportNum;
@@ -59,6 +63,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         date = new Date();
         newlyCreatedSrcReports = new ArrayList<>();
+        newlyCreatedQualityReports = new ArrayList<>();
 
 
         Button createSrcReportButton = (Button) findViewById(R.id.button2);
@@ -76,7 +81,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             @Override
             public void onClick(View view) {
                 System.out.println("b");
-                //onCreateWaterQualityReportButton();
+                onCreateWaterQualityReportButton();
             }
         });
     }
@@ -127,6 +132,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         DatabaseReference db = FirebaseDatabase.getInstance().getReference();
 
         waterSourceReports = new ArrayList<>();
+        waterQualityReports = new ArrayList<>();
 
 
         db.child("waterSourceReports").child("maxReportNum").addListenerForSingleValueEvent(new ValueEventListener() {
@@ -143,6 +149,20 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             }
 
         });
+
+        db.child("waterQualityReports").child("maxReportNum").addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                //System.out.println(dataSnapshot);
+                long max = (long) dataSnapshot.getValue();
+                currWaterQualityReportNum = (int) max;
+            }
+            @Override
+            public void onCancelled(DatabaseError firebaseError) {
+
+            }
+        });
+
 
         db.child("waterSourceReports").child("reports").addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -208,6 +228,64 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
 
+        db.child("waterQualityReports").child("reports").addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                HashMap<String, Object> listOfReports = (HashMap<String, Object>)dataSnapshot.getValue();
+                for (String key: listOfReports.keySet()) {
+                    Map<String, String> map = (HashMap<String, String>) listOfReports.get(key);
+                    String user = map.get("user");
+                    int reportNumber = Integer.parseInt(map.get("reportNumber"));
+                    double lat = Double.parseDouble(map.get("lat"));
+                    double longitude = Double.parseDouble(map.get("long"));
+                    String locationTitle = map.get("locationTitle");
+
+                    String qualityConditionStr = map.get("qualityCondition");
+                    QualityCondition[] types = QualityCondition.values();
+                    QualityCondition realType = types[0];
+                    for (QualityCondition type: types) {
+                        if (type.getCondition().equals(qualityConditionStr)) {
+                            realType = type;
+                        }
+                    }
+
+                    int virus = Integer.parseInt(map.get("virusPPM"));
+                    int contaminant = Integer.parseInt(map.get("contaminantPPM"));
+
+                    long timestamp = Long.parseLong(map.get("dateCreated"));
+                    Date date = new Date(timestamp);
+
+                    WaterQualityReport report = new WaterQualityReport(user,
+                            reportNumber,
+                            date,
+                            new Location(lat, longitude, locationTitle),
+                            realType,
+                            virus,
+                            contaminant);
+                    waterQualityReports.add(report);
+                }
+
+
+                // Populate map
+                for (WaterQualityReport report: waterQualityReports) {
+                    //System.out.println(report.getLocation().getLatitude() + ", " + report.getLocation().getLatitude());
+                    LatLng loc = new LatLng(report.getLocation().getLatitude(), report.getLocation().getLongitude());
+                    MarkerOptions markerOpt = new MarkerOptions().position(loc).title(report.getLocation().getTitle());
+                    markerOpt.snippet(formatMarkerAdditionalInfo(report));
+
+                    mMap.addMarker(markerOpt.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+
+                    mMap.moveCamera(CameraUpdateFactory.newLatLng(loc));
+                }
+
+            }
+            @Override
+            public void onCancelled(DatabaseError firebaseError) {
+
+            }
+        });
+
+
     }
 
 
@@ -218,7 +296,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             case (0) : {
                 if (resultCode == Activity.RESULT_OK) {
 
-                    System.out.println("HEyyyyyyyyyyy");
+
 
                     String type = data.getExtras().getString("type");
                     WaterType t;
@@ -297,6 +375,72 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 }
                 break;
             }
+            case (1): {
+                if (resultCode == Activity.RESULT_OK) {
+
+                    String qcond = data.getExtras().getString("qcond");
+                    QualityCondition c;
+
+
+                    if (qcond.equals("Safe")) {
+                        c = QualityCondition.SAFE;
+                    } else if (qcond.equals("Treatable")) {
+                        c = QualityCondition.TREATABLE;
+                    } else {
+                        c = QualityCondition.UNSAFE;
+                    }
+
+
+                    WaterQualityReport newQualityReport = new WaterQualityReport(
+                            data.getExtras().getString("username"),
+                            data.getExtras().getInt("reportNum"),
+                            date,
+                            new Location(
+                                    data.getExtras().getDouble("lat"),
+                                    data.getExtras().getDouble("long"),
+                                    data.getExtras().getString("locName")),
+                            c,
+                            data.getExtras().getInt("virusPPM"),
+                            data.getExtras().getInt("contaminantPPM")
+                            );
+
+                    waterQualityReports.add(newQualityReport);
+                    newlyCreatedQualityReports.add(newQualityReport);
+
+                    // Update map
+
+                    LatLng loc = new LatLng(newQualityReport.getLocation().getLatitude(), newQualityReport.getLocation().getLongitude());
+                    MarkerOptions markerOpt = new MarkerOptions().position(loc).title(newQualityReport.getLocation().getTitle());
+                    markerOpt.snippet(formatMarkerAdditionalInfo(newQualityReport));
+
+                    mMap.addMarker(markerOpt.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+
+                    mMap.moveCamera(CameraUpdateFactory.newLatLng(loc));
+                    if (mCurrMarker != null) {
+                        mCurrMarker.remove();
+                    }
+                    mCurrMarker = null;
+
+
+                    Map<String, String> reportDataMap = new HashMap<>();
+                    reportDataMap.put("reportNumber", "" + newQualityReport.getReportNumber());
+                    reportDataMap.put("qualityCondition", newQualityReport.getQualityCondition().toString());
+                    reportDataMap.put("user", newQualityReport.getUsername());
+                    reportDataMap.put("dateCreated", "" + newQualityReport.getDate().getTime());
+                    reportDataMap.put("virusPPM", "" + newQualityReport.getVirusPPM());
+                    reportDataMap.put("contaminantPPM", "" + newQualityReport.getContaminantPPM());
+                    reportDataMap.put("locationTitle", newQualityReport.getLocation().getTitle());
+                    reportDataMap.put("lat", "" + newQualityReport.getLocation().getLatitude());
+                    reportDataMap.put("long","" + newQualityReport.getLocation().getLongitude());
+
+                    DatabaseReference db = FirebaseDatabase.getInstance().getReference();
+                    db.child("waterQualityReports").child("reports").push().setValue(reportDataMap);
+                    currWaterQualityReportNum++;
+                    db.child("waterQualityReports").child("maxReportNum").setValue(currWaterQualityReportNum);
+                }
+                break;
+            }
+
         }
     }
 
@@ -322,17 +466,22 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     public void onCreateWaterQualityReportButton() {
 
-        if (mCurrMarker != null) {
-            Intent intent = new Intent(MapsActivity.this, CreateWaterSourceReport.class);
-            intent.putExtra("username", getIntent().getExtras().getString("username"));
-            intent.putExtra("reportNum", currWaterSourceReportNum);
-            intent.putExtra("dateString", date.toString());
-            if (mCurrMarker != null) {
-                intent.putExtra("loc", mCurrMarker.getPosition());
-            }
 
-            MapsActivity.this.startActivityForResult(intent, 0);
+        Intent intent = new Intent(MapsActivity.this, CreateWaterQualityReport.class);
+        intent.putExtra("username", getIntent().getExtras().getString("username"));
+        intent.putExtra("reportNum", currWaterSourceReportNum + 1);
+        intent.putExtra("dateString", date.toString());
+
+        if (mCurrMarker != null) {
+            intent.putExtra("lat", mCurrMarker.getPosition().latitude);
+            intent.putExtra("long", mCurrMarker.getPosition().longitude);
+        } else {
+            intent.putExtra("lat", 0.0);
+            intent.putExtra("long", 0.0);
         }
+
+        MapsActivity.this.startActivityForResult(intent, 1);
+
 
     }
 
@@ -344,6 +493,17 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         String waterTypeString = report.getWaterType().toString();
 
         return userString + ", " + waterConditionString + ", " + waterTypeString;
+
+    }
+
+    private String formatMarkerAdditionalInfo(WaterQualityReport report) {
+        String userString = "Made by " + report.getUsername();
+        String locationString = "Loc: " + report.getLocation().getLatitude() + ", " + report.getLocation().getLongitude();
+        String waterConditionString = report.getQualityCondition().toString();
+        String virus = "Virus PPM: " + report.getVirusPPM();
+        String contaminant = "Contaminant PPM: " + report.getContaminantPPM();
+
+        return userString + ", " + waterConditionString + ", " + virus + ", " + contaminant;
 
     }
 
