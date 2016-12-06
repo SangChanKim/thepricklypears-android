@@ -193,7 +193,7 @@ tools:context="com.example.sang.waterreportingapp.CreateWaterQualityReport">
         android:layout_toEndOf="@+id/dateLabel" />
 
     <TextView
-        android:text="Report Number"
+        android:text="Report:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/usernameLabel"
