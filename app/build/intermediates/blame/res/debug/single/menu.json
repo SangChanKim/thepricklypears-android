@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_screen.xml",
+        "source": "C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\src\\main\\res\\menu\\main_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_screen_drawer.xml",
+        "source": "C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\src\\main\\res\\menu\\activity_main_screen_drawer.xml"
+    }
+]
