@@ -1,7 +1,7 @@
-#Sun Dec 04 22:44:09 EST 2016
-base.0=C\:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c052fd3328e94a303a8d7a6235d0ba2533c403ba
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d57471c7cdc99d2aca13c70da13f966867033037\\classes.dex
-base.1=C\:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d57471c7cdc99d2aca13c70da13f966867033037
-file.0=C\:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c052fd3328e94a303a8d7a6235d0ba2533c403ba\\classes.dex
+#Mon Dec 05 22:28:25 EST 2016
+base.0=/Users/sang/thepricklypears-android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/sang/thepricklypears-android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+base.1=/Users/sang/thepricklypears-android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+file.0=/Users/sang/thepricklypears-android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes2.dex
