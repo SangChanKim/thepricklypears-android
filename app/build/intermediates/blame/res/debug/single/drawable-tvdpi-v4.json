@@ -1,34 +1,50 @@
 [
     {
-        "merged": "/Users/sang/thepricklypears-android/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
-        "source": "/Users/sang/thepricklypears-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_small_off_client.png"
+        "merged": "C:\\Users\\sang\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "C:\\Users\\sang\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png"
     },
     {
-        "merged": "/Users/sang/thepricklypears-android/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
-        "source": "/Users/sang/thepricklypears-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_medium_off_client.png"
+        "merged": "C:\\Users\\sang\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "C:\\Users\\sang\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png"
     },
     {
-        "merged": "/Users/sang/thepricklypears-android/C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
-        "source": "/Users/sang/thepricklypears-android/C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png"
+        "merged": "C:\\Users\\sang\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "C:\\Users\\sang\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "/Users/sang/thepricklypears-android/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_tall_off_client.png",
-        "source": "/Users/sang/thepricklypears-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_tall_off_client.png"
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png"
     },
     {
-        "merged": "/Users/sang/thepricklypears-android/C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png",
-        "source": "/Users/sang/thepricklypears-android/C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png"
+        "merged": "C:\\Users\\sang\\thepricklypears-android\\C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "C:\\Users\\sang\\thepricklypears-android\\C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "/Users/sang/thepricklypears-android/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_standard_off_client.png",
-        "source": "/Users/sang/thepricklypears-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_standard_off_client.png"
+        "merged": "C:\\Users\\sang\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "C:\\Users\\sang\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png"
     },
     {
-        "merged": "/Users/sang/thepricklypears-android/C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png",
-        "source": "/Users/sang/thepricklypears-android/C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png"
+        "merged": "C:\\Users\\sang\\thepricklypears-android\\C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "C:\\Users\\sang\\thepricklypears-android\\C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png"
     },
     {
-        "merged": "/Users/sang/thepricklypears-android/C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png",
-        "source": "/Users/sang/thepricklypears-android/C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png"
+        "merged": "C:\\Users\\sang\\thepricklypears-android\\C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "C:\\Users\\sang\\thepricklypears-android\\C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\sang\\thepricklypears-android\\C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "C:\\Users\\sang\\thepricklypears-android\\C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png"
     }
 ]

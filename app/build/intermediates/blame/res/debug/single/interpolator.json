@@ -1,18 +1,26 @@
 [
     {
-        "merged": "/Users/sang/thepricklypears-android/C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\interpolator\\mr_fast_out_slow_in.xml",
-        "source": "/Users/sang/thepricklypears-android/C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\interpolator\\mr_fast_out_slow_in.xml"
+        "merged": "C:\\Users\\sang\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\interpolator\\mr_fast_out_slow_in.xml",
+        "source": "C:\\Users\\sang\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\interpolator\\mr_fast_out_slow_in.xml"
     },
     {
-        "merged": "/Users/sang/thepricklypears-android/app/build/intermediates/res/merged/debug/interpolator/mr_fast_out_slow_in.xml",
-        "source": "/Users/sang/thepricklypears-android/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/interpolator/mr_fast_out_slow_in.xml"
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\interpolator\\mr_linear_out_slow_in.xml",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\interpolator\\mr_linear_out_slow_in.xml"
     },
     {
-        "merged": "/Users/sang/thepricklypears-android/C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\interpolator\\mr_linear_out_slow_in.xml",
-        "source": "/Users/sang/thepricklypears-android/C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\interpolator\\mr_linear_out_slow_in.xml"
+        "merged": "C:\\Users\\sang\\thepricklypears-android\\C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\interpolator\\mr_fast_out_slow_in.xml",
+        "source": "C:\\Users\\sang\\thepricklypears-android\\C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\interpolator\\mr_fast_out_slow_in.xml"
     },
     {
-        "merged": "/Users/sang/thepricklypears-android/app/build/intermediates/res/merged/debug/interpolator/mr_linear_out_slow_in.xml",
-        "source": "/Users/sang/thepricklypears-android/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/interpolator/mr_linear_out_slow_in.xml"
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\interpolator\\mr_fast_out_slow_in.xml",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\interpolator\\mr_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\sang\\thepricklypears-android\\C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\interpolator\\mr_linear_out_slow_in.xml",
+        "source": "C:\\Users\\sang\\thepricklypears-android\\C:\\Users\\Michael Wang\\Documents\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\interpolator\\mr_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\sang\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\interpolator\\mr_linear_out_slow_in.xml",
+        "source": "C:\\Users\\sang\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\interpolator\\mr_linear_out_slow_in.xml"
     }
 ]
