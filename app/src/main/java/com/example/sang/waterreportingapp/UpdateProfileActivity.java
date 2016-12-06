@@ -156,6 +156,9 @@ public class UpdateProfileActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent cancelIntent = new Intent(UpdateProfileActivity.this, HomeScreenActivity.class);
+
+                cancelIntent.putExtra("username", getIntent().getExtras().getString("username"));
+                cancelIntent.putExtra("password", getIntent().getExtras().getString("password"));
                 UpdateProfileActivity.this.startActivity(cancelIntent);
             }
         });

@@ -114,6 +114,7 @@ public class QualityReportActivity extends AppCompatActivity {
             public void onClick(View v){
                 Intent homeIntent = new Intent(QualityReportActivity.this, HomeScreenActivity.class);
                 homeIntent.putExtra("username", getIntent().getExtras().getString("username"));
+                homeIntent.putExtra("password", getIntent().getExtras().getString("password"));
                 QualityReportActivity.this.startActivity(homeIntent);
             }
         });

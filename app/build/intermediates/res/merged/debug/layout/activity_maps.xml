@@ -27,6 +27,12 @@
         android:layout_alignParentBottom="true" />
 
     <Button
+        android:text="home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/homeButton" />
+
+    <Button
         android:text="Create Source Report"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

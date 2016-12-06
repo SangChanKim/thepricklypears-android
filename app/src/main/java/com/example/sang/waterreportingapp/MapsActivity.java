@@ -84,6 +84,17 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 onCreateWaterQualityReportButton();
             }
         });
+
+        Button homeButton = (Button) findViewById(R.id.homeButton);
+        homeButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent homeIntent = new Intent(MapsActivity.this, HomeScreenActivity.class);
+                homeIntent.putExtra("username", getIntent().getExtras().getString("username"));
+                homeIntent.putExtra("password", getIntent().getExtras().getString("password"));
+                MapsActivity.this.startActivity(homeIntent);
+            }
+        });
     }
 
 
@@ -451,6 +462,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             intent.putExtra("username", getIntent().getExtras().getString("username"));
             intent.putExtra("reportNum", currWaterSourceReportNum + 1);
             intent.putExtra("dateString", date.toString());
+            intent.putExtra("password", getIntent().getExtras().getString("passsword"));
 
             if (mCurrMarker != null) {
                 intent.putExtra("lat", mCurrMarker.getPosition().latitude);
@@ -471,6 +483,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         intent.putExtra("username", getIntent().getExtras().getString("username"));
         intent.putExtra("reportNum", currWaterSourceReportNum + 1);
         intent.putExtra("dateString", date.toString());
+        intent.putExtra("password", getIntent().getExtras().getString("passsword"));
 
         if (mCurrMarker != null) {
             intent.putExtra("lat", mCurrMarker.getPosition().latitude);

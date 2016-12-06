@@ -40,6 +40,7 @@ public class HomeScreenActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent viewMapIntent = new Intent(HomeScreenActivity.this, MapsActivity.class);
                 viewMapIntent.putExtra("username", getIntent().getExtras().getString("username"));
+                viewMapIntent.putExtra("password", getIntent().getExtras().getString("password"));
                 HomeScreenActivity.this.startActivity(viewMapIntent);
             }
         });
@@ -56,6 +57,7 @@ public class HomeScreenActivity extends AppCompatActivity {
                         if (snapshot.getValue().toString().equals("Manager")) {
                             Intent viewQualityReportIntent = new Intent(HomeScreenActivity.this, QualityReportActivity.class);
                             viewQualityReportIntent.putExtra("username", getIntent().getExtras().getString("username"));
+                            viewQualityReportIntent.putExtra("password", getIntent().getExtras().getString("password"));
                             HomeScreenActivity.this.startActivity(viewQualityReportIntent);
                         }
                     }
@@ -73,6 +75,7 @@ public class HomeScreenActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent viewAllReportsIntent = new Intent(HomeScreenActivity.this, AllReportsActivity.class);
                 viewAllReportsIntent.putExtra("username", getIntent().getExtras().getString("username"));
+                viewAllReportsIntent.putExtra("password", getIntent().getExtras().getString("password"));
                 HomeScreenActivity.this.startActivity(viewAllReportsIntent);
             }
         });

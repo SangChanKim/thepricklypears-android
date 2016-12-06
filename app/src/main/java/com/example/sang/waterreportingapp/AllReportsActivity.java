@@ -123,6 +123,7 @@ public class AllReportsActivity extends AppCompatActivity {
             public void onClick(View v){
                 Intent homeIntent = new Intent(AllReportsActivity.this, HomeScreenActivity.class);
                 homeIntent.putExtra("username", getIntent().getExtras().getString("username"));
+                homeIntent.putExtra("password", getIntent().getExtras().getString("password"));
                 AllReportsActivity.this.startActivity(homeIntent);
             }
         });
