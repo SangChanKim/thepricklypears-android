@@ -39,6 +39,7 @@ public class HomeScreenActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent viewMapIntent = new Intent(HomeScreenActivity.this, MapsActivity.class);
+                viewMapIntent.putExtra("username", getIntent().getExtras().getString("username"));
                 HomeScreenActivity.this.startActivity(viewMapIntent);
             }
         });

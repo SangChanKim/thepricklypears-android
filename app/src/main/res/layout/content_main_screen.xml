@@ -18,10 +18,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:id="@+id/textView3"
+        android:id="@+id/dateLabel"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textSize="36sp"
-        android:layout_below="@+id/textView4"
+        android:layout_below="@+id/conditionLabel"
         android:layout_centerHorizontal="true"
         android:textAlignment="center" />
 

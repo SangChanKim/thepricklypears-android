@@ -1,7 +1,12 @@
 package com.example.sang.waterreportingapp;
 
+import android.app.Activity;
+import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import com.example.sang.waterreportingapp.model.Location;
 import com.example.sang.waterreportingapp.model.WaterSourceReport;
@@ -34,7 +39,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private ArrayList<WaterSourceReport> waterSourceReports;
 
+    private ArrayList<WaterSourceReport> newlyCreatedSrcReports;
+
     private int currWaterSourceReportNum;
+    private int currWaterQualityReportNum;
+
+
+    private Date date;
 
 
     @Override
@@ -46,6 +57,28 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
+        date = new Date();
+        newlyCreatedSrcReports = new ArrayList<>();
+
+
+        Button createSrcReportButton = (Button) findViewById(R.id.button2);
+        createSrcReportButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                System.out.println("a");
+                onCreateWaterSourceReportButton();
+            }
+        });
+
+
+        Button createQualityReportButton = (Button) findViewById(R.id.button4);
+        createQualityReportButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                System.out.println("b");
+                //onCreateWaterQualityReportButton();
+            }
+        });
     }
 
 
@@ -155,9 +188,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                 // Populate map
                 for (WaterSourceReport report: waterSourceReports) {
-                    System.out.println(report.getLocation().getLatitude() + ", " + report.getLocation().getLatitude());
+                    //System.out.println(report.getLocation().getLatitude() + ", " + report.getLocation().getLatitude());
                     LatLng loc = new LatLng(report.getLocation().getLatitude(), report.getLocation().getLongitude());
-                    MarkerOptions markerOpt = new MarkerOptions().position(loc).title("Report " + report.getReportNumber());
+                    MarkerOptions markerOpt = new MarkerOptions().position(loc).title(report.getLocation().getTitle());
                     markerOpt.snippet(formatMarkerAdditionalInfo(report));
 
                     mMap.addMarker(markerOpt);
@@ -178,9 +211,131 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
 
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        switch(requestCode) {
+            case (0) : {
+                if (resultCode == Activity.RESULT_OK) {
+
+                    System.out.println("HEyyyyyyyyyyy");
+
+                    String type = data.getExtras().getString("type");
+                    WaterType t;
+                    String cond = data.getExtras().getString("cond");
+                    WaterCondition c;
+
+                    if (type.equals("Bottled")) {
+                        t = WaterType.BOTTLED;
+                    } else if (type.equals("Well")) {
+                        t = WaterType.WELL;
+                    } else if (type.equals("Spring")) {
+                        t = WaterType.SPRING;
+                    } else if (type.equals("Stream")) {
+                        t = WaterType.STREAM;
+                    } else if (type.equals("Lake")) {
+                        t = WaterType.LAKE;
+                    } else {
+                        t = WaterType.OTHER;
+                    }
+
+                    if (cond.equals("Waste")) {
+                        c = WaterCondition.WASTE;
+                    } else if (cond.equals("Treatable-Clear")) {
+                        c = WaterCondition.TREATABLE_CLEAR;
+                    } else if (cond.equals("Treatable-Muddy")) {
+                        c = WaterCondition.TREATABLE_MUDDY;
+                    } else {
+                        c = WaterCondition.POTABLE;
+                    }
+
+
+                    WaterSourceReport report = new WaterSourceReport(
+                            data.getExtras().getString("username"),
+                            data.getExtras().getInt("reportNum"),
+                            date,
+                            new Location(
+                                    data.getExtras().getDouble("lat"),
+                                    data.getExtras().getDouble("long"),
+                                    data.getExtras().getString("locName")),
+                            t,
+                            c);
+
+                    waterSourceReports.add(report);
+                    newlyCreatedSrcReports.add(report);
+
+                    // Update map
+
+                    LatLng loc = new LatLng(report.getLocation().getLatitude(), report.getLocation().getLongitude());
+                    MarkerOptions markerOpt = new MarkerOptions().position(loc).title(report.getLocation().getTitle());
+                    markerOpt.snippet(formatMarkerAdditionalInfo(report));
+
+                    mMap.addMarker(markerOpt);
+
+                    mMap.moveCamera(CameraUpdateFactory.newLatLng(loc));
+                    if (mCurrMarker != null) {
+                        mCurrMarker.remove();
+                    }
+                    mCurrMarker = null;
+
+                    // Persist
+                    Map<String, String> reportDataMap = new HashMap<>();
+                    reportDataMap.put("reportNumber", "" + report.getReportNumber());
+                    reportDataMap.put("waterCondition", report.getWaterCondition().toString());
+                    reportDataMap.put("user", report.getUsername());
+                    reportDataMap.put("dateCreated", "" + report.getDate().getTime());
+                    reportDataMap.put("waterType", report.getWaterType().toString());
+                    reportDataMap.put("locationTitle", report.getLocation().getTitle());
+                    reportDataMap.put("lat", "" + report.getLocation().getLatitude());
+                    reportDataMap.put("long","" + report.getLocation().getLongitude());
+
+                    DatabaseReference db = FirebaseDatabase.getInstance().getReference();
+                    db.child("waterSourceReports").child("reports").push().setValue(reportDataMap);
+                    currWaterSourceReportNum++;
+                    db.child("waterSourceReports").child("maxReportNum").setValue(currWaterSourceReportNum);
+
+                }
+                break;
+            }
+        }
+    }
+
+
     public void onCreateWaterSourceReportButton() {
+        //if (mCurrMarker != null) {
+            Intent intent = new Intent(MapsActivity.this, CreateWaterSourceReport.class);
+            intent.putExtra("username", getIntent().getExtras().getString("username"));
+            intent.putExtra("reportNum", currWaterSourceReportNum + 1);
+            intent.putExtra("dateString", date.toString());
+
+            if (mCurrMarker != null) {
+                intent.putExtra("lat", mCurrMarker.getPosition().latitude);
+                intent.putExtra("long", mCurrMarker.getPosition().longitude);
+            } else {
+                intent.putExtra("lat", 0.0);
+                intent.putExtra("long", 0.0);
+            }
+
+            MapsActivity.this.startActivityForResult(intent, 0);
+        //}
+    }
+
+    public void onCreateWaterQualityReportButton() {
+
+        if (mCurrMarker != null) {
+            Intent intent = new Intent(MapsActivity.this, CreateWaterSourceReport.class);
+            intent.putExtra("username", getIntent().getExtras().getString("username"));
+            intent.putExtra("reportNum", currWaterSourceReportNum);
+            intent.putExtra("dateString", date.toString());
+            if (mCurrMarker != null) {
+                intent.putExtra("loc", mCurrMarker.getPosition());
+            }
+
+            MapsActivity.this.startActivityForResult(intent, 0);
+        }
 
     }
+
 
     private String formatMarkerAdditionalInfo(WaterSourceReport report) {
         String userString = "Made by " + report.getUsername();
@@ -191,5 +346,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         return userString + ", " + waterConditionString + ", " + waterTypeString;
 
     }
+
 
 }
