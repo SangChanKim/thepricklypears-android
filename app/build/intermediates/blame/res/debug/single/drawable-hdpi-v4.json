@@ -72,16 +72,26 @@
         "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/sang/thepricklypears-android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_cast_connected_white_24.png",
         "source": "/Users/sang/thepricklypears-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/drawable-hdpi-v4/quantum_ic_cast_connected_white_24.png"
+=======
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable-hdpi-v4\\cast_abc_scrubber_control_to_pressed_mtrl_000.png"
+>>>>>>> c1fd9a4a8af89c8df07f6431c55fbaa0abc5e3cf
     },
     {
         "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_stop_white_24.png",
         "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable-hdpi-v4\\quantum_ic_stop_white_24.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/sang/thepricklypears-android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_normal.9.png",
         "source": "/Users/sang/thepricklypears-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal.9.png"
+=======
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_0.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\10.0.1\\res\\drawable-hdpi-v4\\cast_ic_notification_0.png"
+>>>>>>> c1fd9a4a8af89c8df07f6431c55fbaa0abc5e3cf
     },
     {
         "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_dark.png",

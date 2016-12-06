@@ -32,6 +32,7 @@
         "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable\\ic_expand.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
         "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_btn_colored_material.xml"
     },
@@ -42,6 +43,18 @@
     {
         "merged": "/Users/sang/thepricklypears-android/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_play.xml",
         "source": "/Users/sang/thepricklypears-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/drawable/cast_ic_mini_controller_play.xml"
+=======
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand.xml",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable\\ic_expand.xml"
+    },
+    {
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_previous.xml",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable\\cast_ic_expanded_controller_skip_previous.xml"
+>>>>>>> c1fd9a4a8af89c8df07f6431c55fbaa0abc5e3cf
     },
     {
         "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_progress_drawable.xml",

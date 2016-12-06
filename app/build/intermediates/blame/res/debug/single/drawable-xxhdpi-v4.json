@@ -52,6 +52,7 @@
         "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable-xxhdpi-v4\\cast_abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/sang/thepricklypears-android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_cast_off_light.png",
         "source": "/Users/sang/thepricklypears-android/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxhdpi-v4/ic_cast_off_light.png"
     },
@@ -62,12 +63,25 @@
     {
         "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\quantum_ic_play_circle_filled_grey600_36.png",
         "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable-xxhdpi-v4\\quantum_ic_play_circle_filled_grey600_36.png"
+=======
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_on_17_light.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable-xxhdpi-v4\\ic_media_route_on_17_light.png"
+    },
+    {
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_on_20_light.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable-xxhdpi-v4\\ic_media_route_on_20_light.png"
+    },
+    {
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\powered_by_google_dark.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\10.0.1\\res\\drawable-xxhdpi-v4\\powered_by_google_dark.png"
+>>>>>>> c1fd9a4a8af89c8df07f6431c55fbaa0abc5e3cf
     },
     {
         "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\powered_by_google_dark.png",
         "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\10.0.1\\res\\drawable-xxhdpi-v4\\powered_by_google_dark.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
         "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -78,6 +92,18 @@
     {
         "merged": "/Users/sang/thepricklypears-android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_21_dark.png",
         "source": "/Users/sang/thepricklypears-android/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxhdpi-v4/ic_media_route_connecting_21_dark.png"
+=======
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_on_07_light.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable-xxhdpi-v4\\ic_media_route_on_07_light.png"
+    },
+    {
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_on_10_light.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable-xxhdpi-v4\\ic_media_route_on_10_light.png"
+    },
+    {
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+>>>>>>> c1fd9a4a8af89c8df07f6431c55fbaa0abc5e3cf
     },
     {
         "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_on_21_light.png",
@@ -100,6 +126,7 @@
         "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable-xxhdpi-v4\\ic_media_route_on_01_light.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_connecting_11_light.png",
         "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable-xxhdpi-v4\\ic_media_route_connecting_11_light.png"
     },
@@ -110,6 +137,18 @@
     {
         "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_on_11_light.png",
         "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable-xxhdpi-v4\\ic_media_route_on_11_light.png"
+=======
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_connecting_07_dark.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable-xxhdpi-v4\\ic_media_route_connecting_07_dark.png"
+    },
+    {
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_connecting_21_light.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable-xxhdpi-v4\\ic_media_route_connecting_21_light.png"
+    },
+    {
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\quantum_ic_play_circle_filled_white_36.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable-xxhdpi-v4\\quantum_ic_play_circle_filled_white_36.png"
+>>>>>>> c1fd9a4a8af89c8df07f6431c55fbaa0abc5e3cf
     },
     {
         "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\quantum_ic_stop_white_24.png",
@@ -120,6 +159,7 @@
         "source": "/Users/sang/thepricklypears-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-xxhdpi-v4/ic_plusone_tall_off_client.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_cast_off_light.png",
         "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable-xxhdpi-v4\\ic_cast_off_light.png"
     },
@@ -130,6 +170,18 @@
     {
         "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\quantum_ic_volume_up_white_36.png",
         "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable-xxhdpi-v4\\quantum_ic_volume_up_white_36.png"
+=======
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_connecting_11_light.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable-xxhdpi-v4\\ic_media_route_connecting_11_light.png"
+    },
+    {
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_connecting_01_light.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable-xxhdpi-v4\\ic_media_route_connecting_01_light.png"
+    },
+    {
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_on_11_light.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable-xxhdpi-v4\\ic_media_route_on_11_light.png"
+>>>>>>> c1fd9a4a8af89c8df07f6431c55fbaa0abc5e3cf
     },
     {
         "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
@@ -144,6 +196,7 @@
         "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/sang/thepricklypears-android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal.9.png",
         "source": "/Users/sang/thepricklypears-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal.9.png"
     },
@@ -154,6 +207,18 @@
     {
         "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_connecting_15_dark.png",
         "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable-xxhdpi-v4\\ic_media_route_connecting_15_dark.png"
+=======
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_connecting_04_dark.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable-xxhdpi-v4\\ic_media_route_connecting_04_dark.png"
+    },
+    {
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\quantum_ic_volume_up_white_36.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable-xxhdpi-v4\\quantum_ic_volume_up_white_36.png"
+    },
+    {
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+>>>>>>> c1fd9a4a8af89c8df07f6431c55fbaa0abc5e3cf
     },
     {
         "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
@@ -184,6 +249,7 @@
         "source": "/Users/sang/thepricklypears-android/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxhdpi-v4/ic_media_pause.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_on_10_dark.png",
         "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable-xxhdpi-v4\\ic_media_route_on_10_dark.png"
     },
@@ -194,6 +260,18 @@
     {
         "merged": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
         "source": "/Users/sang/thepricklypears-android/C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+=======
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cast_ic_notification_1.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\10.0.1\\res\\drawable-xxhdpi-v4\\cast_ic_notification_1.png"
+    },
+    {
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_connecting_08_dark.png",
+        "source": "C:\\projects\\thepricklypears-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable-xxhdpi-v4\\ic_media_route_connecting_08_dark.png"
+>>>>>>> c1fd9a4a8af89c8df07f6431c55fbaa0abc5e3cf
     },
     {
         "merged": "/Users/sang/thepricklypears-android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_22_light.png",
