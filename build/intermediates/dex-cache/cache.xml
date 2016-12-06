@@ -3,21 +3,309 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.0.1_dda14e84c81f47c286281c392d056878c25fead9\classes.dex" />
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_3e9e784b9a057633083118f139276e7d9cb2fc03\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.0.1_f57fc8b1ded903f034e2d2b9a721448f8b1e7036\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.0.1_55da9d92a6c38ae9319d37f0c66665ca6b35bab8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_f0aca76f7e5f8efbe37d81f9235f6b49bc5fcf9f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.0.1_0dfaf1ef248109766fc8a4bfe87a5962a378791a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_22f087dfe6b4a09b72cb75ec784f77f794bfa10a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.0.1_5c1c0f7f51439542db6dc6164aa8708b2778a2f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.1_eac5b898f7ffcc280f9703336f7840af7d945e52\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_285aead2a5e465cd75d0b9d20f30124aa0f18112\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.1_1fb46beb532fa4b4403fbd12ecf22aa539437bad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.0.1_34cf2d47764c7e0b3da15f2731dbbbaa1dc4f572\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_932ecfb510f054baf763506d028cafb533d7f8aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_e19625d814f700c13462432e42b89bee1f3fab95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_88195c2b36cc460ec776900e240832278996b95f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.0.1_73c7d6571ac0a90474f225b4428b19bc47f2662e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.0.1_389a36074925bf51385e6ab2603781e086b2fcb5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.0.1_986ed6813428d82a3e58f2ccd9428f94c9941055\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_364de71c304f423ad6babca65174fd11497bb974\classes.dex" />
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_73ee9fbdb6e766e785dbeeb8273a22e09301d29b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.0.1_c4c792fe821d0598c86ad74f418ae6243e12195b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.0.1_1ef5fdccf71a3bd9c70851b2f4258ee5bdf1cf07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.0.1_a36f8d42cad2997a50b07d273da08b60e152ab2d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_70c3d53573c251598dc1be198533c284661f1d5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_840e7dd26d146b53dc891f3d727ecad07317bc76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_bf32d8df570c39db551d9f40fabd852e5ba634fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_a40af90f5689b284501bc9c5a93bd529b6cf5c61\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.0.1_ebc939ee8ca048e2927229ca6aa4f8f0e9939d99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_5ec0bbb4000d806f3a3657d830828e7e60dc3cbb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_2ae107df554ba01ad78fe280920f0af2970db4ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_fb29b86bdf2e4367cde7c6eb92829eb3fe0feae4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_3ec9d2e3efd3a037e709cf5fb2039b36da49afc6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_a12e0cf0f549e6a5891dd36f7c6002f4835b8dc7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.0.1_6b22756ebf8688579f46c4c5f6d7917e10d75a5b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.0.1_bbaf822de1f13e3084fdca0c33fa774c69ce5a84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.0.1_0b877734e20118bdac70083337095e51a51bbcc3\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -26,619 +314,340 @@
         optimize="true"
         revision="25.0.1"
         sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_71ad9352804cc40758cf057d531093e43fb7bdff\classes.dex" />
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_71ad9352804cc40758cf057d531093e43fb7bdff\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="58c32ad0b74885cbead804ce076e598547cd51e0">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c052fd3328e94a303a8d7a6235d0ba2533c403ba\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_b1d2abccfaf03c506c89fc538bbeaff58ffdb2fe\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.0.1_f139e4fd16ddb8ab6364dd07d5c9b5a1c46e65c2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.0.1_aaf5556d6793d4f95241491c823b1bf9833a0c49\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_d6bb1919f0c3943b6b74274b461247c689e0544a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_05254b366d0b99934484b62aa5ba370dafe4e36b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_e139d51d60cd37ad40d0dd7ff36ce25d4ff699cb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.0.1_379e9b38caeb19b95b0fcd874d19e5ad080c5c45\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.0.1_41e85c858a97cbe871e8b6b84bb50302a3ea36fc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.0.1_9a14933be7ade0dcef6c47203be6809074ad97b9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_06a25a922d972d0cb3f12e0586ecd6fad088be23\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-10.0.1_43f378f4f94464b8a9a335313e4f62fba69a52d8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_86d6fae335f24ed05e6c5f18e69cc7ac3f967e40\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.1_9051a4f372fc5da1a7831ebd74f2678ba1f4249b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_0767e4a6d22c32fded3a608cadbe248e3c5b1d42\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_475ce81247545b3565caeac75ac2ecd364d80274\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_4776e608bc5ecdfdb792a4204d80f8219dbe3699\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_04026a60fe49a86171e0eed8f8d602a0bb458887\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.1_1c02157580cc1d4e73f27d383e8a538a27606776\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.0.1_aa075a4d86b644f0b76b8a8f6e7857e07fa6ce1f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_fba656d8fa3243581177e05985d3fe09ec4d6468\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.0.1_99a4f2b4003d8d6039fbe9bfba344045634522ea\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.0.1_398f67fdeb1e2a9d76961a6300d8683a4de32646\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.0.1_f97aaab0f6411323d950feab58173880bd07236c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.0.1_07bf65478cd57caa6cb8cfc695e4ead7608fc3f5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_db1b982431e5422c1b0d590b0df7f88284d49fb1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.0.1_a7f340d075ad403e5d46d5192b05b61028ede007\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.0.1_2b6d477609ad852544af9e97feba3a5798687fcd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_12b4ab1f03570d5800b685d49c7e430c2c7785cf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_92e0d59d75e37243b344a7bdf83ffacc5b073c22\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.0.1_7bbc89c6eeb216e90040ce49c528d8abf3dd5fd7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.0.1_6d7d70651728ca8219f5cc89f2c9712d6b5724e0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_a31530f23d0ab08e08944b02e36507e14bdeb138\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_8ea626e6d728d5cdf4d1568c9789730f5f92ab88\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_594edba074b24a9c9cc065e12fae5cb0f4a7fa67\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_1d1f52c7954690220b9d9e4c39f7371e9e1a6882\classes.dex" />
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_715912c40e62dcdfbd49808a0f6de71fe15599a9\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_7968f6945a5f6708cc237110875bb73ee46e3eae\classes.dex" />
+        sha1="40ee4921b2645420ff9037b8e6df86fb2a6e332f">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a6dab19ba7bc39d829285f992a9c60706f5e81a5\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.0.1_74bdc8f32a25ca266456cc0b62ed7903a4378962\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_cc4329dca337ec0bc757a78764bebc5ecd7dceaa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.0.1_ddb5a1faf22903d0ffa979c83e0f22e6d79570d8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="1d193729baf37df3d902a423291423a0df7e3779">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.0.1_74e0e3df347785406a5907fd9290aea4b8577730\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_93f2e847a3b1ec824803255ef77b5dfdf9d813ed\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.1_5ccd3994752cda3932db290983b902cc44301d9e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-10.0.1_86f1289672912e8cbc97917491f5484a8084e3be\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ca7fa54f30db676574ea9149baaa2fa8796550a0">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d57471c7cdc99d2aca13c70da13f966867033037\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.0.1_8ff340fb554653caaefbc8e5d893144f88f1ca18\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.0.1_8eba5bd21cab98af46869963eb3cb8f71d18f16a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_bcad00b393e715732ff807509c8f8b80c311c3be\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.0.1_c0310cb5a0e7d5a0fe5dfa76112e1af75ec0eb49\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_3bf4d1eedf40dc26dc1bc7f517def5bf7f891944\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_36ceaae0acf5c21926fe1ac89c8f3b8aa1ad66e8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.1_1ac770d0b35c5aa0c01c2ea2f0bbc4f691727e35\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_6564b8703a88ec3cffe48514cf7295e93511deb5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.0.1_a7d5ee6fe6bfce7d4ec4edf551479a74eb5176fd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_c22d6ce3e8d7a69f35fcb380345636a10e7d6d41\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.0.1_650828453942b52a4465f0fbdfc1e1d99f26d7cc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.0.1_f6840dccbf6ffcda7fffb2a480002af3f19841f9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.1_24d8f4a11d6bf007ae7afab5848f40a5d7f34004\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_213fb2ad9f1578daf8ae51b5b4e8ff6f23d8a9fb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="a48dc0b148059764d32500be558702d5ff932058">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-10.0.1_849358a65077d4615edf56de65f3d667657a3a20\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_19ac17804d6d4fa201bb05c06b474e617c47ce2a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.0.1_cf0e2779cefe32428b0e1e3ae16d5665eeed5acc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.0.1_095c5b159baa90eca78abd672c88b7cd38dd2b3d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_d1aa618b2f7b1af08df03a343c38ec9529bf03f4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.0.1_06711d231a36ff74fe9cc69334208b9171def670\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_5db657ac7977452944c2160ba96ab43865d5b427\classes.dex" />
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_458a7a337d11d5b6bc3a87a95166ab970e091c46\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_a9a3aa3bed078a6ccae0ef5ae692ee75eb1cdc45\classes.dex" />
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.0.1_60aee20a5e7c5397468201a467bffb8df8c5c256\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.0.1\jars\classes.jar"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_4ebc55b0d2401e2450b2c8430f55b1834ad6f996\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_5a0928f6245d458dc9bd309731178a5a5e1ed0c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_41b5aab3a5cae64781f8e0a6ce80a94b502c235e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.0.1_67b6c962acead337f2614cdbd9a01f593d87bea1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
-        <dex dex="C:\Users\Michael Wang\Documents\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.0.1_f62b3dee14c0ae4c884ab0b0f049a51e01644d5d\classes.dex" />
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.0.1_860db68d014f50cb8c1f8d5608142993def84924\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.0.1_473ca975fa78b6697e974b8a7cd03bdc06f215e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.0.1_d16b357c62922af118540d51088171ad5f3cb527\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.0.1_81a6602429289d8efde20ef4288de42ea375ade3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_eefa4824de452a081a3d16a3ea3695da6b55d960\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e028c34348458232244409e6cf19f79ba0352e09">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b2bf1ef81e35ddfdec735118fc9a294df7ee8ecd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-10.0.1_de05bbf452a215b14a59e77dfba4e6f911b89321\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.0.1_80a8b4bf2ad7c190e7db1004286e3fa797c182f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-10.0.1_0b411340d63164ff44252e8c6e929fb65087acb9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.1_f444b03a94b01f5d250f130c9ac9550aa3e91c6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_c64fcdb96d9aa5bc7ef64440af266c8dca965a4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-10.0.1_b6e8498e97356f21f31b3bd69eb8024b3caf8605\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_b78a85340f6f36ffd5a8b4c53f8686b14d359aff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.0.1_c48462b51c27f4ad0bfeae5f80e2c98654b1048e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_c376406a26990e79d62a2e5d112d06e659307569\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.0.1_6b7d404e94b5f3c24a432ccc6d1c6d48c63058b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_9a283084d01d905d246530e1bc17072bf0956b59\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_189acd49b5aa7dc25a2b051b9083e8b309bf2230\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_af2c78bba7a0d6c484aa5f60b738529fbc62605a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.1_102398016bc77a973f92eb95395a5fa36950c055\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.0.1_dedc10d14a9e22e92d5c48d4a684dab027686681\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_234e1fc376f5f7709748e7afbae29374f84395e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.0.1_3bd631c9cc1d1a74b7d555146b1deb073916116b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.1_ef8811ed7e43c389d842528781b88d43a029cb48\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_116751e49200c0009609529b70cc7dc5728e69ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_9ef2cdd2cc01b069b2c2ee0027c479f2bb6cbce4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.0.1_596e27e735f9582915218b1d2a4ab07b506b9cae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.0.1_fac4ca550c6cd920bddb0171fbde444cdb96ab76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\thepricklypears-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_ed6110317f3910201ec7b2c7b505de9cd758e78a\classes.dex" />
     </item>
 
 </items>
