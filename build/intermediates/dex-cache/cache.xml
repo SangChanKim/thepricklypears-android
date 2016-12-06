@@ -331,7 +331,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="40ee4921b2645420ff9037b8e6df86fb2a6e332f">
+        sha1="fd38a258c056de192da33c81bf193de2c7118d81">
         <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a6dab19ba7bc39d829285f992a9c60706f5e81a5\classes.dex" />
     </item>
     <item
@@ -439,7 +439,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="e028c34348458232244409e6cf19f79ba0352e09">
+        sha1="76af571255c0be0217c2973071a751ccadb368a6">
         <dex dex="C:\projects\thepricklypears-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b2bf1ef81e35ddfdec735118fc9a294df7ee8ecd\classes.dex" />
     </item>
     <item

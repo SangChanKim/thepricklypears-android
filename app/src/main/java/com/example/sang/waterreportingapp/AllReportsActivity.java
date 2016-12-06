@@ -104,7 +104,7 @@ public class AllReportsActivity extends AppCompatActivity {
                             + "\nLocation: " + report.getLocation()
                             + "\nWater Condition: " + report.getWaterCondition()
                             + "\nWater Type: " + report.getWaterType()
-                            + "\ntooUser: " + report.getUsername());
+                            + "\nUser: " + report.getUsername());
                     waterSourceReports.add(report);
                 }
             }
@@ -122,6 +122,7 @@ public class AllReportsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent homeIntent = new Intent(AllReportsActivity.this, HomeScreenActivity.class);
+                homeIntent.putExtra("username", getIntent().getExtras().getString("username"));
                 AllReportsActivity.this.startActivity(homeIntent);
             }
         });
