@@ -39,6 +39,7 @@ public class HomeScreenActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent viewMapIntent = new Intent(HomeScreenActivity.this, MapsActivity.class);
+                viewMapIntent.putExtra("username", getIntent().getExtras().getString("username"));
                 HomeScreenActivity.this.startActivity(viewMapIntent);
             }
         });
@@ -54,6 +55,7 @@ public class HomeScreenActivity extends AppCompatActivity {
                     public void onDataChange(DataSnapshot snapshot) {
                         if (snapshot.getValue().toString().equals("Manager")) {
                             Intent viewQualityReportIntent = new Intent(HomeScreenActivity.this, QualityReportActivity.class);
+                            viewQualityReportIntent.putExtra("username", getIntent().getExtras().getString("username"));
                             HomeScreenActivity.this.startActivity(viewQualityReportIntent);
                         }
                     }
@@ -70,6 +72,7 @@ public class HomeScreenActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent viewAllReportsIntent = new Intent(HomeScreenActivity.this, AllReportsActivity.class);
+                viewAllReportsIntent.putExtra("username", getIntent().getExtras().getString("username"));
                 HomeScreenActivity.this.startActivity(viewAllReportsIntent);
             }
         });
