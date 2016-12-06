@@ -9,6 +9,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -30,6 +31,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private GoogleMap mMap;
     private Marker mCurrMarker;
+
+    private ArrayList<WaterSourceReport> waterSourceReports;
 
     private int currWaterSourceReportNum;
 
@@ -64,24 +67,23 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
             @Override
             public void onMapClick(LatLng latLng) {
-                if (mCurrMarker == null) {
-                    // Creating a marker
-                    MarkerOptions opt = new MarkerOptions();
 
-                    // Setting the position for the marker
-                    opt.position(latLng);
-
-                    // Setting the title for the marker.
-                    // This will be displayed on taping the marker
-                    opt.title(latLng.latitude + " : " + latLng.longitude);
-
-                    // Animating to the touched position
-                    mMap.animateCamera(CameraUpdateFactory.newLatLng(latLng));
-                    mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-
-                    // Placing a marker on the touched position
-                    mCurrMarker = mMap.addMarker(opt.draggable(true));
+                if (mCurrMarker != null) {
+                    mCurrMarker.remove();
                 }
+                // Creating a marker
+                MarkerOptions opt = new MarkerOptions();
+
+                // Setting the position for the marker
+                opt.position(latLng);
+
+                // Animating to the touched position
+                mMap.animateCamera(CameraUpdateFactory.newLatLng(latLng));
+                mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+
+                // Placing a marker on the touched position
+                mCurrMarker = mMap.addMarker(opt.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+
             }
         });
 
@@ -91,7 +93,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         // Load up all our water source reports onto the map
         DatabaseReference db = FirebaseDatabase.getInstance().getReference();
 
-        final ArrayList<WaterSourceReport> waterSourceReports = new ArrayList<>();
+        waterSourceReports = new ArrayList<>();
 
 
         db.child("waterSourceReports").child("maxReportNum").addListenerForSingleValueEvent(new ValueEventListener() {
@@ -150,6 +152,18 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                             realCondition);
                     waterSourceReports.add(report);
                 }
+
+                // Populate map
+                for (WaterSourceReport report: waterSourceReports) {
+                    System.out.println(report.getLocation().getLatitude() + ", " + report.getLocation().getLatitude());
+                    LatLng loc = new LatLng(report.getLocation().getLatitude(), report.getLocation().getLongitude());
+                    MarkerOptions markerOpt = new MarkerOptions().position(loc).title("Report " + report.getReportNumber());
+                    markerOpt.snippet(formatMarkerAdditionalInfo(report));
+
+                    mMap.addMarker(markerOpt);
+
+                    mMap.moveCamera(CameraUpdateFactory.newLatLng(loc));
+                }
             }
 
             @Override
@@ -160,18 +174,21 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         });
 
 
-        // Populate map
-        for (WaterSourceReport report: waterSourceReports) {
-            LatLng loc = new LatLng(report.getLocation().getLatitude(), report.getLocation().getLongitude());
-            mMap.addMarker(new MarkerOptions().position(loc).title("LOL"));
-            mMap.moveCamera(CameraUpdateFactory.newLatLng(loc));
-        }
 
     }
 
 
     public void onCreateWaterSourceReportButton() {
 
+    }
+
+    private String formatMarkerAdditionalInfo(WaterSourceReport report) {
+        String userString = "Made by " + report.getUsername();
+        String locationString = "Loc: " + report.getLocation().getLatitude() + ", " + report.getLocation().getLongitude();
+        String waterConditionString = report.getWaterCondition().toString();
+        String waterTypeString = report.getWaterType().toString();
+
+        return userString + ", " + waterConditionString + ", " + waterTypeString;
 
     }
 

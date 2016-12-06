@@ -1,9 +1,16 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Mon Dec 05 22:53:58 EST 2016
 20.base=C\:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\resources-debug.ap_
 143.base=C\:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\resources-debug.ap_
 493.base=C\:\\projects\\thepricklypears-android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-25.0.1_af2c78bba7a0d6c484aa5f60b738529fbc62605a
 664.base=C\:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\resources-debug.ap_
+=======
+#Mon Dec 05 22:56:44 EST 2016
+20.base=/Users/sang/thepricklypears-android/app/build/intermediates/res/resources-debug.ap_
+143.base=/Users/sang/thepricklypears-android/app/build/intermediates/res/resources-debug.ap_
+493.base=/Users/sang/thepricklypears-android/app/build/intermediates/res/resources-debug.ap_
+>>>>>>> 3fca658857f4b0550c5f6fc845c7c85931fa8445
 439.set=ANDROID_RESOURCE
 340.file=C\:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_audiotrack.png
 511.file=C\:\\projects\\thepricklypears-android\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_media_route_off_mono_dark.png
